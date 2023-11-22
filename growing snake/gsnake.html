@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gsnake.css">
+    <script src="gsnake.js" defer></script>
+    <title>Snake Game</title>
+</head>
+<body>
+    <h1 style="color:olive ;font-size: 45px;">Snake Game</h1>
+    <div>
+        <div id="msg1">Press any key to START the game</div>
+        <div id="msg">Press space to PAUSE or CONTINUE  the game</div>
+    </div>  
+    
+    <div id="score" style="text-align: center;">Score: <span id="scoreVal">0</span></div>
+    <!-- <div id="msg">Press space to pause or continue</div> -->
+    <div id="container">
+        <canvas id="gameBoard" width="1100" height="450" ></canvas>
+        <button id="startAgainButton" style="position: absolute; top: 450px; left: 50%; transform: translateX(-50%);">Start Again</button>
+        
+    </div>
+    
+
+</body>
+</html>
